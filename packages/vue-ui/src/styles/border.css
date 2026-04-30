@@ -1,0 +1,23 @@
+:root {
+  --zq-border-width: 1px;
+  --zq-border-style: solid;
+  --zq-border-color-hover: var(--zq-text-color-secondary);
+  --zq-border: var(--zq-border-width) var(--zq-border-style) var(--zq-border-color);
+  --zq-border-light: var(--zq-border-width) var(--zq-border-style) var(--zq-border-color-light);
+  --zq-border-lighter: var(--zq-border-width) var(--zq-border-style) var(--zq-border-color-lighter);
+  --zq-border-dark: var(--zq-border-width) var(--zq-border-style) var(--zq-border-color-dark);
+  --zq-border-darker: var(--zq-border-width) var(--zq-border-style) var(--zq-border-color-darker);
+
+  --zq-border-radius-base: 4px;
+  --zq-border-radius-small: 2px;
+  --zq-border-radius-round: 20px;
+  --zq-border-radius-circle: 100%;
+
+  --zq-box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  --zq-box-shadow-light: 0 2px 12px 0 rgba(0, 0, 0, 0.05);
+  --zq-box-shadow-dark: 0 2px 12px 0 rgba(0, 0, 0, 0.2);
+
+  --zq-shadow-light: 0px 0px 12px rgba(0, 0, 0, 0.12);
+  --zq-shadow-lighter: 0px 0px 20px rgba(0, 0, 0, 0.08);
+  --zq-shadow-dark: 0px 0px 24px rgba(0, 0, 0, 0.12);
+}

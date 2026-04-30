@@ -73,6 +73,7 @@ coverage
 # Cache
 .cache
 .parcel-cache
+npm-cache
 
 # Misc
 *.tgz

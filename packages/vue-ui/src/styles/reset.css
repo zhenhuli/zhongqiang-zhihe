@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+  font-size: var(--zq-font-size-base);
+  color: var(--zq-text-color-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--zq-color-primary);
+  text-decoration: none;
+  transition: var(--zq-transition-color);
+
+  &:hover {
+    color: var(--zq-color-primary-light-2);
+  }
+}
+
+button {
+  font-family: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
